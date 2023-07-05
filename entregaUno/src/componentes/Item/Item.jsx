@@ -11,8 +11,8 @@ const Item = ({ id, nombre, precio, img }) => {
    <Container className="d-flex justify-content-center">
       <Row>
         <Col >
-          <Card style={{ width: "18rem" }} className="mt-4 container-fluid d-flex justify-content-center">
-        <Card className="row">
+          <Card style={{ width: "18rem" }} className="mt-4 justify-content-center">
+        <Card>
           <Card.Img variant="top" src={img} />
           <Card.Body>
                 <Card.Title className="text-center">{nombre}</Card.Title>
@@ -27,7 +27,7 @@ const Item = ({ id, nombre, precio, img }) => {
       </Col>
       </Row>
     </Container>
-    </>
+    </> 
   );
 };
 
